@@ -1,7 +1,8 @@
 #!/bin/zsh
 
 
-echo Which installer would you like to run?
+# zsh does not like when that question mark is not inside quotes
+echo "Which installer would you like to run?"
 read installer
 echo ""
 
